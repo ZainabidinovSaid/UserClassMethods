@@ -5,7 +5,7 @@ from user_service import UserService
 from user_util import UserUtil
 
 if __name__ == "__main__":
-    user1 = User(1, 'John', 'Doe', '2000-10-06', 'john.doe@example.com')
+    user1 = User(230121031, 'Saidislom', 'Zainabidinov', '2006-06-13', 'said.zain@example.com')
     user2 = User(2, 'Jane', 'Smith', '1995-05-20', 'jane.smith@example.com')
 
     UserService.add_user(user1)
